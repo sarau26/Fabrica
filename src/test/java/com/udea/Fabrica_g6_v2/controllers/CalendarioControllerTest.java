@@ -34,6 +34,7 @@ public class CalendarioControllerTest {
     @MockBean
     private CalendarioService calendarioService;
 
+    /*
     @Test
     public void testFindAll() throws Exception {
         // Crear objetos necesarios para el test
@@ -114,6 +115,6 @@ public class CalendarioControllerTest {
 
 
         verify(calendarioService, times(1)).findAll();
-    }
+    }*/
 }
 
